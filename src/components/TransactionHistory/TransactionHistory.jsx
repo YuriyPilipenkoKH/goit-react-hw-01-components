@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Table, Thead, Td , Tr, Th} from './TransactionHistory.styled';
+import { Table, Thead, Td ,  Th} from './TransactionHistory.styled';
 
 export const TransactionTable = ({transactions}) => {
 

@@ -31,16 +31,16 @@ export const Td = styled.td`
   }
 `
 
-export const Tr = styled.td`
+// export const Tr = styled.td`
 
 
-  :nth-of-type(even) {
-  background-color: #43a3e355;
-  }
-  :last-of-type {
-  border-bottom: 2px solid #009879; 
-  }
-`
+//   :nth-of-type(even) {
+//   background-color: #43a3e355;
+//   }
+//   :last-of-type {
+//   border-bottom: 2px solid #009879; 
+//   }
+// `
 export const Th = styled.td`
   font-size: 32px;
   padding: 20px 0;
