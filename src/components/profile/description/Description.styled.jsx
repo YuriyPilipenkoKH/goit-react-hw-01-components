@@ -3,14 +3,16 @@ import styled  from '@emotion/styled';
 export const ProfileDescription = styled.div`
   display: grid;
   grid-auto-rows: auto;
-  grid-row-gap: 8px;
-  padding: 16px;
+  grid-row-gap: 16px;
+  padding:40px 16px 0;
 
 `
 
 export const Avatar = styled.img`
   width: 200px;
   margin: 0 auto;
+  border-radius: 50%;
+  background-color: #fff;
 `
 
 export const UserName = styled.h1`
