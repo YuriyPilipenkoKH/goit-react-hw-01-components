@@ -62,38 +62,3 @@ code {
 }
 
 
-
-
-/* th {
-  font-size: 22px;
-  padding: 20px 0;
-} */
-
-
-/* td {
-  font-size: 18px;
-  border: 1px solid #999;
-  padding: 1rem  2em;
-  text-align: center;
-
-}
- 
-td:first-of-type {
-  text-align: left;
-} */
-
-.transaction_table {
-  /* border: 1px solid black; */
-  /* border-radius: 8px; */
-}
-
-tr {
-  /* text-align: center; */
-
-}
-/* 
- tr:nth-of-type(even) {
-  background-color: #43a3e355;
-} */
-
- 
