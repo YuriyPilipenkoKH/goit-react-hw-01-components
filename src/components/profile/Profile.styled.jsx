@@ -11,4 +11,5 @@ export const ProfileCard = styled.div`
     background: ${props => props.theme.colors.beige};
     border: 1px solid ${props => props.theme.colors.black};
     border-radius: 8px;
+    box-shadow: ${props => props.theme.shadow};
 `

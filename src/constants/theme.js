@@ -18,4 +18,6 @@ export const theme = Object.freeze({
     },
     fontSize: value => `${4 * value}px`,
     spacing: value => `${4 * value}px`,
+
+    shadow:  "1rem 1rem 2rem rgb(65, 64, 64), -1rem -1rem 2rem rgb(82, 81, 81)",
   });

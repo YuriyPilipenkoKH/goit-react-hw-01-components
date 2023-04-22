@@ -7,7 +7,7 @@ export const Table = styled.table`
   border-radius: 8px;
   border: 1px solid ${props => props.theme.colors.black};
  
- 
+  box-shadow: ${props => props.theme.shadow};
 
 `
 
@@ -41,6 +41,13 @@ export const Tbody = styled.tbody`
   >tr {
     :nth-of-type(even) {
   background-color: #43a3e355;
+  }
+  >td {
+    border-right: 1px solid ${props => props.theme.colors.grey};
+
+    :last-of-type {
+      border-right: none;
+    }
   }
  
   }

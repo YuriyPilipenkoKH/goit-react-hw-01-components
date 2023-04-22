@@ -12,6 +12,7 @@ export const FriendItem = styled.li`
   border-radius: 8px;
   background: #f5f5dc;
   border: 1px solid #000;
+  box-shadow: ${props => props.theme.shadow};
 
   > p {
     font-size: 32px;
